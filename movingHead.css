@@ -43,6 +43,17 @@
     animation-iteration-count: infinite;
 }
 
+.movingSmajaBox img{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    border: 4px white solid;
+    border-radius: 50%;
+    animation-name: smajaSideScroller;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes sidescroller{
     0% {left: -230px; top: 400px;}
     100% {left: 700px; top: 0px;}
@@ -56,4 +67,10 @@
 @keyframes kambaSideScroller {
     0% {left: 600px; top: -210px;}
     100% {left: -210px; top: 300px;}
+}
+
+@keyframes smajaSideScroller {
+    0% {right : -210px; top: 300px;}
+    100% {right: 510px; top: -210px;}
+    
 }
