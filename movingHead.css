@@ -1,0 +1,22 @@
+* {
+    background-color: #333;
+}
+
+.movingHeadBox img {
+    position: relative;
+    left: -210px;
+    top: 400px;
+    height: 180px;
+    width: 180px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    animation-name: sidescroller;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sidescroller{
+    0% {left: -230px; top: 400px;}
+    100% {left: 700px; top: 0px;}
+}
