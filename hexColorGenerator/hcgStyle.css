@@ -1,0 +1,35 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textPart {
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.button {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.buttonInner {
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 2vh;   
+    cursor: crosshair;
+    outline: none;
+    width: 50vh;
+}
+
+.buttonInner:hover {
+    background-color: lightgreen;
+}
+
+.hexCode {
+ 
+}
